@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+
 import { makeStyles } from "@material-ui/core/styles";
 import TextField from "@material-ui/core/TextField";
 
@@ -11,14 +12,33 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function BasicTextFields() {
+export default function BasicTextFields(props) {
   const classes = useStyles();
+  const [inputValue, setInputValue] = useState("Please enter your text");
+
+  function handleChange(event) {
+    setInputValue(event.target.value);
+  }
+  function handleSubmit(event) {
+    event.preventDefault();
+    props.addItemToList(inputValue);
+    setInputValue("");
+  }
 
   return (
-    <form className={classes.root} noValidate autoComplete="off">
-      {/* <TextField id="standard-basic" label="Standard" />
-      <TextField id="filled-basic" label="Filled" variant="filled" /> */}
-      <TextField id="outlined-basic" label="Enter text" variant="outlined" />
+    <form
+      onSubmit={handleSubmit}
+      className={classes.root}
+      noValidate
+      autoComplete="off"
+    >
+      <TextField
+        id="outlined-basic"
+        label="Enter text"
+        variant="outlined"
+        value={inputValue}
+        onChange={handleChange}
+      />
     </form>
   );
 }

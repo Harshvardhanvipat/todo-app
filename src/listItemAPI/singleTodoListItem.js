@@ -19,22 +19,23 @@ const listItems = []; // this list is going to hold all the items of the todo li
 const restoreIdList = [];
 const restoreTodoListitems = [];
 
-function createIdForTodoItem() {
+export function createIdForTodoItem() {
   let id = Math.random() * 10000000000000000;
   if (!listOfAllId.includes(id)) {
     listOfAllId.push(id);
     return id;
+  } else {
+    return createIdForTodoItem();
   }
-  return id;
 }
 
-function createNewTodoItem(itemContent = "Please add some content") {
+export function createNewTodoItem(itemContent = "Please add some content", id) {
   // this method returns an object of new single Todo item
 
   return {
     listItemID: id,
     itemContent: itemContent,
-    previousContent: "Brand New",
+    previousContent: "never edited",
     dateCreated: new Date(),
     deleteMarker: false,
     edited: 0,
@@ -48,13 +49,13 @@ function getTodoItem(id) {
   return todoItem; // this returns an todo Item object
 }
 
-function editTodoItem(editedContent, id) {
-  if (listItems.find((item) => item.id)) {
-    item.previousContent = item.itemContent;
-    item.ItemContent = editedContent;
-    item.edited = item.edited++;
-  }
-}
+// function editTodoItem(editedContent, id) {
+//   if (listItems.find((item) => item.id)) {
+//     item.previousContent = item.itemContent;
+//     item.ItemContent = editedContent;
+//     item.edited = item.edited++;
+//   }
+// }
 
 function deleteTodoItem(id) {
   const item = listItems.find((item) => item.id === id);
