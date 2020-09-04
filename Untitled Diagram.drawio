@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-04T05:22:07.151Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="kh641o5uQxJq6wF3AmQ-" version="13.6.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-09-04T08:19:13.959Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="rSF5xw57WQGT8z0NpjtI" version="13.6.6" type="github" pages="2">
   <diagram id="x6xK8HQp3tTx6gFSgic1" name="Page-1">
     <mxGraphModel dx="946" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -87,7 +87,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="204TLDBB6ACHqV9htZXK" name="Page-2">
-    <mxGraphModel dx="946" dy="1791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="1791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="3TVMV5X0imgr_on3nAx8-0" />
         <mxCell id="3TVMV5X0imgr_on3nAx8-1" parent="3TVMV5X0imgr_on3nAx8-0" />
@@ -95,7 +95,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3TVMV5X0imgr_on3nAx8-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;Item Component / object&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;item_Object{&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;- ItemID: Number&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;-&amp;nbsp;&lt;span&gt;ItemContent: string&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;- DeleteMarker: false&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;- DateCreated: date stamp&amp;nbsp;&lt;br&gt;- Edited : 0 (new creation)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;span&gt;- PreviousContent: string&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;span&gt;}&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="3TVMV5X0imgr_on3nAx8-1">
-          <mxGeometry x="400" y="150" width="200" height="210" as="geometry" />
+          <mxGeometry x="380" y="150" width="230" height="170" as="geometry" />
         </mxCell>
         <mxCell id="3TVMV5X0imgr_on3nAx8-4" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="3TVMV5X0imgr_on3nAx8-3">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
@@ -113,7 +113,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="3TVMV5X0imgr_on3nAx8-9" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;List Component&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;+ List [ ]: item_Object&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;+ methodIterateItemComponent(): Type&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;+ addItemToList(): Type&lt;br&gt;&lt;/p&gt;&amp;nbsp; +&amp;nbsp;&lt;span&gt;methodDeleteItem(id): Type&lt;/span&gt;&lt;br&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;+ methodAddItem(id): Type&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;+ methodCreateNewItem(): Type&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;+ methodEditItem(): Type&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;&amp;lt;EditItem Component /&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;&amp;lt;Delete Component /&amp;gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="3TVMV5X0imgr_on3nAx8-1">
+        <mxCell id="3TVMV5X0imgr_on3nAx8-9" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;List Component&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;&amp;lt;Displayitem /&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;+ methodIterateItemComponent(): Type&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;+ addItemToList(): Type&lt;br&gt;&lt;/p&gt;&amp;nbsp; +&amp;nbsp;&lt;span&gt;methodDeleteItem(id): Type&lt;/span&gt;&lt;br&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;+ methodAddItem(id): Type&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;+ methodCreateNewItem(): Type&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;+ methodEditItem(): Type&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;&amp;lt;button onClick() call Edit method /&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;&amp;lt;button pass(id) call the method /&amp;gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="3TVMV5X0imgr_on3nAx8-1">
           <mxGeometry x="80" y="150" width="230" height="210" as="geometry" />
         </mxCell>
         <mxCell id="3TVMV5X0imgr_on3nAx8-10" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="3TVMV5X0imgr_on3nAx8-9">
@@ -122,7 +122,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3TVMV5X0imgr_on3nAx8-15" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;Input Component&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;+ inputText: String&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="3TVMV5X0imgr_on3nAx8-1">
-          <mxGeometry x="620" y="150" width="150" height="50" as="geometry" />
+          <mxGeometry x="670" y="160" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="3TVMV5X0imgr_on3nAx8-16" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="3TVMV5X0imgr_on3nAx8-15">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
@@ -140,8 +140,8 @@
         <mxCell id="4Q78b6j-O8QFPMQYsSt5-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.461;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3TVMV5X0imgr_on3nAx8-1" source="3TVMV5X0imgr_on3nAx8-18" target="3TVMV5X0imgr_on3nAx8-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3TVMV5X0imgr_on3nAx8-18" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;App Component&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;&amp;lt;App Header /&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;&amp;lt;Input text={text} /&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;&amp;lt;ListComponent /&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="3TVMV5X0imgr_on3nAx8-1">
-          <mxGeometry x="380" y="-70" width="201" height="150" as="geometry" />
+        <mxCell id="3TVMV5X0imgr_on3nAx8-18" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;App Component&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;&amp;lt;App Header /&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;+ List [ ]: item_Object (pass as props)&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;&amp;lt;Input text={text} /&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;&amp;lt;ListComponent /&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="3TVMV5X0imgr_on3nAx8-1">
+          <mxGeometry x="370" y="-80" width="230" height="160" as="geometry" />
         </mxCell>
         <mxCell id="3TVMV5X0imgr_on3nAx8-19" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="3TVMV5X0imgr_on3nAx8-18">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
@@ -160,7 +160,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3TVMV5X0imgr_on3nAx8-28" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;DeleteItem Component&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;+ inputText: String&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="3TVMV5X0imgr_on3nAx8-1">
-          <mxGeometry x="220" y="420" width="150" height="60" as="geometry" />
+          <mxGeometry x="220" y="420" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3TVMV5X0imgr_on3nAx8-29" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="3TVMV5X0imgr_on3nAx8-28">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
@@ -174,7 +174,7 @@
           <mxGeometry x="215" y="370" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="4Q78b6j-O8QFPMQYsSt5-0" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;App Header Component&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;+ App Header content: String&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="3TVMV5X0imgr_on3nAx8-1">
-          <mxGeometry x="730" y="20" width="210" height="60" as="geometry" />
+          <mxGeometry x="750" y="35" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4Q78b6j-O8QFPMQYsSt5-1" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="4Q78b6j-O8QFPMQYsSt5-0">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
@@ -186,8 +186,16 @@
             <mxPoint x="460" y="230" as="sourcePoint" />
             <mxPoint x="510" y="180" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="835" y="-15" />
+              <mxPoint x="855" y="-21" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6KYQVeLqePKOTdY8uHys-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;DisplayItem&lt;/b&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="3TVMV5X0imgr_on3nAx8-1">
+          <mxGeometry x="20" y="35" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6KYQVeLqePKOTdY8uHys-2" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="6KYQVeLqePKOTdY8uHys-1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-30" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
