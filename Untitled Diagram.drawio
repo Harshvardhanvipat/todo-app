@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-04T05:00:33.993Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="ymBVr5tDg9Le0qpgTqrs" version="13.6.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-09-04T05:02:49.528Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="Dym2v8piMnfAp4FZ48gm" version="13.6.6" type="github" pages="2">
   <diagram id="x6xK8HQp3tTx6gFSgic1" name="Page-1">
     <mxGraphModel dx="946" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -91,6 +91,9 @@
       <root>
         <mxCell id="3TVMV5X0imgr_on3nAx8-0" />
         <mxCell id="3TVMV5X0imgr_on3nAx8-1" parent="3TVMV5X0imgr_on3nAx8-0" />
+        <mxCell id="3TVMV5X0imgr_on3nAx8-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3TVMV5X0imgr_on3nAx8-1" source="3TVMV5X0imgr_on3nAx8-3" target="3TVMV5X0imgr_on3nAx8-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3TVMV5X0imgr_on3nAx8-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;Item Component / object&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;item_Object{&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;- ItemID: Number&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;-&amp;nbsp;&lt;span&gt;ItemContent: string&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;- DeleteMarker: false&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;- DateCreated: date stamp&amp;nbsp;&lt;br&gt;- Edited : 0 (new creation)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;span&gt;- PreviousContent: string&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;span&gt;}&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="3TVMV5X0imgr_on3nAx8-1">
           <mxGeometry x="350" y="150" width="200" height="210" as="geometry" />
         </mxCell>
@@ -149,7 +152,7 @@
           <mxGeometry x="440" y="80" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3TVMV5X0imgr_on3nAx8-24" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;EditItem Component&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;+ inputText: newString&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="3TVMV5X0imgr_on3nAx8-1">
-          <mxGeometry x="10" y="420" width="150" height="60" as="geometry" />
+          <mxGeometry y="420" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3TVMV5X0imgr_on3nAx8-25" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="3TVMV5X0imgr_on3nAx8-24">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
@@ -163,6 +166,12 @@
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-24" y="4" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="3TVMV5X0imgr_on3nAx8-34" value="ItemID, editText" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3TVMV5X0imgr_on3nAx8-1">
+          <mxGeometry x="70" y="370" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3TVMV5X0imgr_on3nAx8-35" value="itemID" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3TVMV5X0imgr_on3nAx8-1">
+          <mxGeometry x="195" y="370" width="50" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
